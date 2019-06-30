@@ -22,7 +22,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ### Getting Started
 
-1. Follow the instructions for constructing the udacity virtual environment found [here](https://github.com/udacity/deep-reinforcement-learning#dependencies). Optionally, if you wish to avoid cloning the udacity environment, you may simply create a new conda environment and execute **`pip install .`** from the directory where this repository is found.
+1. Follow the instructions for constructing the udacity virtual environment found [here](https://github.com/udacity/deep-reinforcement-learning#dependencies). 
 2. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
     - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
     - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
