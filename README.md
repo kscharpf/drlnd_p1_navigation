@@ -41,21 +41,21 @@ Activate the drlnd environment, then launch the `Navigation.ipynb` jupyter noteb
 
 ### Files and Descriptions
 
-`Navigation.ipynb` directs the agent training and the saving of results.
-`dqn_agent.py` provides a general DQN agent and supports a few different architectural variants.
-`model.py` provides a pytorch neural network that will learn this environment.
-`rl_config.py` provides default hyperparameters and other configuration information.
-`segment_tree.py` from the [OpenAI baseline](https://github.com/openai/baselines/blob/master/baselines/common/segment_tree.py). A tree structure used for prioritized experience replay licensed under the MIT license.
-`replay_buffer.py` from the [OpenAI baseline](https://github.com/openai/baselines/blob/master/baselines/common/segment_tree.py). Provides the prioritized experience replay buffer as well the standard fixed-length replay buffer licensed under the MIT license.
-`dqn.pth` saved model weights for the baseline DQN architecture.
-`ddqn.pth` saved model weights for the double DQN architecture.
-`ddqn_per.pth` saved model weights for the Double DQN architecture with Prioritized Experience Replay.
-`dueling_dqn.pth` saved model weights for the Dueling DQN architecture.
-`dueling_dqn_per.pth` saved model weights for the Dueling DQN architecture with Prioritized Experience Replay.
-`dqn.pkl` training history from the DQN architecture.
-`ddqn.pkl` training history from the Double DQN architecture.
-`ddqn_per.pkl` training history from the Double DQN + PER architecture.
-`dueling_dqn.pkl` training history from the Dueling DQN architecture.
-`dueling_dqn_per.pkl` training history from the Dueling DQN + PER architecture.
+`Navigation.ipynb` directs the agent training and the saving of results.  
+`dqn_agent.py` provides a general DQN agent and supports a few different architectural variants.  
+`model.py` provides a pytorch neural network that will learn this environment.  
+`rl_config.py` provides default hyperparameters and other configuration information.  
+`segment_tree.py` from the [OpenAI baseline](https://github.com/openai/baselines/blob/master/baselines/common/segment_tree.py). A tree structure used for prioritized experience replay licensed under the MIT license.  
+`replay_buffer.py` from the [OpenAI baseline](https://github.com/openai/baselines/blob/master/baselines/common/segment_tree.py). Provides the prioritized experience replay buffer as well the standard fixed-length replay buffer licensed under the MIT license.  
+`dqn.pth` saved model weights for the baseline DQN architecture.  
+`ddqn.pth` saved model weights for the double DQN architecture.  
+`ddqn_per.pth` saved model weights for the Double DQN architecture with Prioritized Experience Replay.  
+`dueling_dqn.pth` saved model weights for the Dueling DQN architecture.  
+`dueling_dqn_per.pth` saved model weights for the Dueling DQN architecture with Prioritized Experience Replay.  
+`dqn.pkl` training history from the DQN architecture.  
+`ddqn.pkl` training history from the Double DQN architecture.  
+`ddqn_per.pkl` training history from the Double DQN + PER architecture.  
+`dueling_dqn.pkl` training history from the Dueling DQN architecture.  
+`dueling_dqn_per.pkl` training history from the Dueling DQN + PER architecture.  
 `Report.ipynb` final project report jupyter notebook.
 `Report.pdf` final project report in pdf format.
