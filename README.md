@@ -57,5 +57,8 @@ Activate the drlnd environment, then launch the `Navigation.ipynb` jupyter noteb
 `ddqn_per.pkl` training history from the Double DQN + PER architecture.  
 `dueling_dqn.pkl` training history from the Dueling DQN architecture.  
 `dueling_dqn_per.pkl` training history from the Dueling DQN + PER architecture.  
-`Report.ipynb` final project report jupyter notebook.
+`Report.ipynb` final project report jupyter notebook.  
 `Report.pdf` final project report in pdf format.
+
+### External Sources
+A clean room Prioritized Experience Replay implementation was deemed excessive for the purposes of this project. Instead, I have used the MIT licensed OpenAI baseline to provide this service as noted above. The same source that provides the PER buffer also provides the bog standard replay buffer so that was used although a clean room implementation of that is straightforward.
